@@ -8,3 +8,6 @@ commands:
   bxp:
     description: trnasform votre xp en bottle xp
     aliases: [bottlexp]
+  advancedbottlexp:
+    description: admin commands
+    aliases: [abx]
