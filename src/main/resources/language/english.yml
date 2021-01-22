@@ -1,0 +1,7 @@
+Prefix: "&8&l[&f&lAdvanced&b&lBotlleXP&8&l]&f » &r"
+Plugin-boot: "&aPlugin activated !"
+Plugin-stop: "&cPlugin disabled !"
+No-xp: "&fYou have no experience"
+Succes: "&fYour experience has been converted. You received &b"
+Bottlename: "&fExperimental vials"
+No-permission: "&cYou do not have permission to execute this command"

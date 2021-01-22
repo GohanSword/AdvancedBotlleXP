@@ -25,10 +25,10 @@ public final class AdvancedBotlleXP extends JavaPlugin {
         saveDefaultConfig();
         this.language.createlanguageConfig();
         getCommand("BXP").setExecutor(new CommandsBXP());
-        Bukkit.getConsoleSender().sendMessage("§c==============§b===============");
+        Bukkit.getConsoleSender().sendMessage("§f==============§b===============");
         Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', language.getLanguageConfig().getString("Prefix")) + "§aV 1.0.0");
         Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', language.getLanguageConfig().getString("Plugin-boot")));
-        Bukkit.getConsoleSender().sendMessage("§c==============§b===============");
+        Bukkit.getConsoleSender().sendMessage("§f==============§b===============");
         getCommand("BXP").setExecutor(new CommandsBXP());
     }
 
