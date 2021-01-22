@@ -1,0 +1,10 @@
+name: AdvancedBotlleXP
+version: ${project.version}
+main: fr.gohansword.advancedbotllexp.AdvancedBotlleXP
+api-version: 1.16
+authors: [ GohanSword ]
+website: survivalworld.fr
+commands:
+  bxp:
+    description: trnasform votre xp en bottle xp
+    aliases: [bottlexp]
