@@ -32,6 +32,8 @@ public final class AdvancedBotlleXP extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', language.getLanguageConfig().getString("Plugin-boot")));
         Bukkit.getConsoleSender().sendMessage("§f==============§b===============");
         getCommand("BXP").setExecutor(new CommandsBXP());
+        int pluginId = 10081; // <-- Replace with the id of your plugin!
+        Metrics metrics = new Metrics(this, pluginId);
     }
 
     @Override
